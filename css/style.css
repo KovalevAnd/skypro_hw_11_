@@ -28,10 +28,45 @@ h3 {
 p {
 width: 200px;
 font-family: Arial;
-font-size: 13px;
+font-size: 12px;
+
 }
 
 a {
+
+}
+
+/* Колонки */
+
+.row {display: flex}
+.col {flex: auto}
+
+
+/* Потом селекторы по классам */
+.chkbx {
+margin-bottom: 5px;
+width: 20px;
+height: 20px;
+}
+
+.text-input {
+margin-bottom: 10px;
+width: 300px;
+height: 40px;
+border: 2px solid #ddd;
+border-radius: 5px;
+}
+
+.button {
+width: 100px;
+height: 30px;
+border-radius: 5px;
+background-color: RoyalBlue;
+border: 2px solid RoyalBlue;
+color: white
+}
+
+.button-link {
   display: inline-block;
   color: white;
   text-decoration: none;
@@ -45,28 +80,6 @@ a {
   font-family: Arial;
   font-size: 13px
 }
-
-/* Колонки */
-
-.row {display: flex}
-.col {flex: auto}
-
-
-/* Потом селекторы по классам */
-
-.text-input {
-
-}
-
-.button {
-width: 100px;
-height: 30px;
-border-radius: 5px;
-background-color: RoyalBlue;
-border: 2px solid RoyalBlue;
-color: white
-}
-
 /* Потом специальные правила по страничкам */
 
 /* Login*/
@@ -86,19 +99,66 @@ input::placeholder {
 /* Страничка жанров и тегов */
 
 .genre-first {
-
+  font-size: 12px
+  font-family: Arial;
+  color: black;
+  text-decoration: none;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #E1F5EA;
+  border-radius: 5px;
+  background: #E1F5EA;
+  font-weight: bold;
+  padding: .4em 1em;
+  margin-bottom: 10px;
 }
 
 .genre-second {
-
+  font-size: 8px
+  font-family: Arial;
+  color: black;
+  text-decoration: none;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #CBEDFF;
+  border-radius: 5px;
+  background: #CBEDFF;
+  font-weight: bold;
+  padding: .4em 1em;
+  margin-bottom: 10px;
+  width: 70%
 }
 
 .genre-third {
-
+  font-size: 8px
+  font-family: Arial;
+  color: black;
+  text-decoration: none;
+  border-width: 2px;
+  border-style: solid;
+  border-color: NavajoWhite;
+  border-radius: 5px;
+  background: NavajoWhite;
+  font-weight: bold;
+  padding: .4em 1em;
+  margin-bottom: 10px;
+  width: 50%
 }
 
 .genre-fourth {
-
+  font-size: 8px
+  font-family: Arial;
+  color: black;
+  text-decoration: none;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #EBDCF9;
+  border-radius: 5px;
+  background: #EBDCF9;
+  font-weight: bold;
+  padding: .4em 1em;
+  margin-bottom: 10px;
+  width: 30%
 }
 
 .tag {
@@ -118,17 +178,31 @@ margin-right: 10px;
 /* Страничка подписки  */
 
 .box-green {
-
+  border-width: 2px;
+  border-style: solid;
+  border-color: #E1F5EA;
+  border-radius: 5px;
+  background: #E1F5EA;
+  padding: .4em 1em;
+  margin-bottom: 10px;
 }
 
 .box-purple {
-
+border-width: 2px;
+  border-style: solid;
+  border-color: #EBDCF9;
+  border-radius: 5px;
+  background: #EBDCF9;
+  padding: .4em 1em;
+  margin-bottom: 10px;
 }
 
 .text-large {
-
+  font-family: Arial;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px
 }
 
-.button-link {
 
-}
