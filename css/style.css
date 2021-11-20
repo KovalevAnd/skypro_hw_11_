@@ -20,22 +20,36 @@ h2 {
     font-family: Arial
 }
 
-p {
+h3 {
+    font-weight: bold;
+    font-family: Arial;
+}
 
+p {
+width: 200px;
+font-family: Arial;
+font-size: 13px;
 }
 
 a {
-
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .4em 1em;
+  border-width: 2px;
+  border-style: solid;
+  border-color: RoyalBlue;
+  border-radius: 5px;
+  background: RoyalBlue;
+  margin-right: 10px;
+  font-family: Arial;
+  font-size: 13px
 }
 
 /* Колонки */
 
-.row {
-
-}
-.col {
-
-}
+.row {display: flex}
+.col {flex: auto}
 
 
 /* Потом селекторы по классам */
@@ -93,8 +107,7 @@ input::placeholder {
 
 /* Страничка популярного */
 
-.row {display: flex}
-.col {flex: auto}
+
 .cover {
 margin-top: 10px;
 margin-bottom: 10px;
